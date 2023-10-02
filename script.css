@@ -1,0 +1,73 @@
+body{
+    background: #000;
+    color: #f4f4f4;
+}
+
+nav{
+    padding: 40px 0;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.again {
+    padding: 3px 10px;
+    font-weight: 800;
+}
+
+main{
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+main > h1 {
+    font-size: 50px;
+}
+
+.secreate-number {
+    padding: 15px 30px;
+    color: #000;
+    background-color: #f4f4f4;
+    font-size: 30px;
+    font-weight: 800;
+    border: 0;
+}
+
+.lower {
+    margin-top: 10px;
+    border: 1px solid #f4f4f4;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    border: 1px solid #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.enter-number {
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.left > button {
+    padding: 4px;
+    width: 80px;
+    font-weight: 600;
+    
+}
